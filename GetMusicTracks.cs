@@ -19,12 +19,12 @@ namespace MusicLibrary {
             Console.WriteLine("which artist/genre you want to listen to?");
             string response = Console.ReadLine();
 
-            if (response == tracks.title) {
-                Console.WriteLine(title);
+            if (response == tracks.artist) {
+                Console.WriteLine(artist);
             }
 
             else if (response == tracks.genre) {
-                Console.WriteLine(genre);
+                Console.WriteLine(title);
             }
 
             else if (tracks.duration == 0.00){
