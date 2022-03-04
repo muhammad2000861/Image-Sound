@@ -16,6 +16,14 @@ namespace MusicLibrary {
             }
             return count;
 
+            foreach(Musictracks item in Music) {
+                Console.WriteLine(item.artist);
+                Console.WriteLine(item.title);
+                Console.WriteLine(item.genre);
+                Console.WriteLine(item.year);
+                Console.WriteLine(item.duration);
+            }
+
             Console.WriteLine("which artist/genre you want to listen to?");
             string response = Console.ReadLine();
 
